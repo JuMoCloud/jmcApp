@@ -22,6 +22,9 @@ export default class Login extends Component {
         this.userName = "";
         this.password = "";
     }
+    componentWillMount(){
+        //alert(-1);
+    }
     render() {
         return (
             <View style={LoginStyles.loginCss}>
@@ -43,8 +46,10 @@ export default class Login extends Component {
             </View>
         );
     }
+
     onPressLogin = () => {
-        alert(0);
+        //alert(0);
+        this.props.navigation.navigate('Ears');
     };
 
     onPressSecret = () =>{
