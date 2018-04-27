@@ -33,7 +33,11 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: EarsScreen,
         navigationOptions: {
             tabBarLabel: '磨耳朵',
-            headerTitle: '磨耳朵',
+            headerTitle: '我爱磨耳朵',
+            headerTitleStyle: {//导航栏文字的样式
+                flex: 1,
+                textAlign: 'center',
+            },
             headerLeft: null,
         }
     },
@@ -41,7 +45,11 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: ClockScreen,
         navigationOptions: {
             tabBarLabel: '每日打卡',
-            headerTitle: '每日打卡',
+            headerTitle: '我爱打卡',
+            headerTitleStyle: {//导航栏文字的样式
+                flex: 1,
+                textAlign: 'center',
+            },
             headerLeft: null,
         }
     },
@@ -50,6 +58,10 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         navigationOptions: {
             tabBarLabel: '我的班级',
             headerTitle: '我的班级',
+            headerTitleStyle: {//导航栏文字的样式
+                flex: 1,
+                textAlign: 'center',
+            },
             headerLeft: null,
         }
     },
@@ -57,20 +69,21 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: UserScreen,
         navigationOptions: {
             tabBarLabel: '个人信息',
-            headerTitle: '个人信息',
+            headerTitle: '我的信息',
+            headerTitleStyle: {//导航栏文字的样式
+                flex: 1,
+                textAlign: 'center',
+            },
             headerLeft: null,
         }
     },
-}, { //设置TabNavigator的位置
-    tabBarPosition: 'bottom',
-    //是否在更改标签时显示动画
-    animationEnabled: true,
-    //是否允许在标签之间进行滑动
-    swipeEnabled: true,
+}, {
+    tabBarPosition: 'bottom',//设置TabNavigator的位置
+    animationEnabled: true,//是否在更改标签时显示动画
+    swipeEnabled: true,//是否允许在标签之间进行滑动
     //按 back 键是否跳转到第一个Tab(首页)， none 为不跳转
     backBehavior: "none",
     //设置Tab标签的属性
-
     tabBarOptions: {
         //Android属性
         upperCaseLabel: false,//是否使标签大写，默认为true
