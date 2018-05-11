@@ -22,6 +22,7 @@ export default class Login extends Component {
         this.userName = "";
         this.password = "";
     }
+
     componentWillMount(){
         //alert(-1);
     }

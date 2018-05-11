@@ -44,7 +44,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
     Clock: {
         screen: ClockScreen,
         navigationOptions: {
-            tabBarLabel: '每日打卡',
+            tabBarLabel: '打卡',
             headerTitle: '我爱打卡',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
@@ -56,7 +56,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
     Classes: {
         screen: ClassesScreen,
         navigationOptions: {
-            tabBarLabel: '我的班级',
+            tabBarLabel: '班级',
             headerTitle: '我的班级',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
@@ -68,7 +68,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
     User: {
         screen: UserScreen,
         navigationOptions: {
-            tabBarLabel: '个人信息',
+            tabBarLabel: '我',
             headerTitle: '我的信息',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
