@@ -33,7 +33,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: EarsScreen,
         navigationOptions: {
             tabBarLabel: '磨耳朵',
-            headerTitle: '我爱磨耳朵',
+            headerTitle: '磨耳资源',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
                 textAlign: 'center',
@@ -44,8 +44,8 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
     Clock: {
         screen: ClockScreen,
         navigationOptions: {
-            tabBarLabel: '打卡',
-            headerTitle: '我爱打卡',
+            tabBarLabel: '爱打卡',
+            headerTitle: '每日打卡',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
                 textAlign: 'center',
@@ -57,7 +57,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: ClassesScreen,
         navigationOptions: {
             tabBarLabel: '班级',
-            headerTitle: '我的班级',
+            headerTitle: '小伙伴',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
                 textAlign: 'center',
