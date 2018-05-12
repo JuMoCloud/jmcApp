@@ -36,7 +36,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
             tabBarLabel: '磨耳朵',
             tabBarIcon: ({tintColor}) => (
                 <Image
-                    source={require('./app/image/btn/ic_home.png')}
+                    source={require('./app/image/btn/a_01.png')}
                     style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                 />
             ),
@@ -55,7 +55,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
             tabBarLabel: '爱打卡',
             tabBarIcon: ({tintColor}) => (
                 <Image
-                    source={require('./app/image/btn/a_05.png')}
+                    source={require('./app/image/btn/a_15.png')}
                     style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                 />
             ),
@@ -74,7 +74,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
             tabBarLabel: '班级',
             tabBarIcon: ({tintColor}) => (
                 <Image
-                    source={require('./app/image/btn/a_05.png')}
+                    source={require('./app/image/btn/a_03.png')}
                     style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                 />
             ),
@@ -93,7 +93,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
             tabBarLabel: '我',
             tabBarIcon: ({tintColor}) => (
                 <Image
-                    source={require('./app/image/btn/a_05.png')}
+                    source={require('./app/image/btn/a_04.png')}
                     style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                 />
             ),
