@@ -8,7 +8,8 @@ import React, {Component} from 'react';
 
 //引入YellowBox
 import {
-    YellowBox
+    YellowBox,
+    Image
 } from 'react-native';
 //react-navigation插件
 import {
@@ -33,9 +34,16 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: EarsScreen,
         navigationOptions: {
             tabBarLabel: '磨耳朵',
+            tabBarIcon: ({tintColor}) => (
+                <Image
+                    source={require('./app/image/btn/ic_home.png')}
+                    style={[{height: 24, width: 24}, {tintColor: tintColor}]}
+                />
+            ),
             headerTitle: '磨耳资源',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
+                fontSize:16,
                 textAlign: 'center',
             },
             headerLeft: null,
@@ -45,9 +53,16 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: ClockScreen,
         navigationOptions: {
             tabBarLabel: '爱打卡',
+            tabBarIcon: ({tintColor}) => (
+                <Image
+                    source={require('./app/image/btn/a_05.png')}
+                    style={[{height: 24, width: 24}, {tintColor: tintColor}]}
+                />
+            ),
             headerTitle: '每日打卡',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
+                fontSize:16,
                 textAlign: 'center',
             },
             headerLeft: null,
@@ -57,9 +72,16 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: ClassesScreen,
         navigationOptions: {
             tabBarLabel: '班级',
+            tabBarIcon: ({tintColor}) => (
+                <Image
+                    source={require('./app/image/btn/a_05.png')}
+                    style={[{height: 24, width: 24}, {tintColor: tintColor}]}
+                />
+            ),
             headerTitle: '小伙伴',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
+                fontSize:16,
                 textAlign: 'center',
             },
             headerLeft: null,
@@ -69,9 +91,16 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated in plain JavaSc
         screen: UserScreen,
         navigationOptions: {
             tabBarLabel: '我',
+            tabBarIcon: ({tintColor}) => (
+                <Image
+                    source={require('./app/image/btn/a_05.png')}
+                    style={[{height: 24, width: 24}, {tintColor: tintColor}]}
+                />
+            ),
             headerTitle: '我的信息',
             headerTitleStyle: {//导航栏文字的样式
                 flex: 1,
+                fontSize:16,
                 textAlign: 'center',
             },
             headerLeft: null,
