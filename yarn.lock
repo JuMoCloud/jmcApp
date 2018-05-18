@@ -3195,6 +3195,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+keymirror@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/keymirror/-/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
+
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -4184,6 +4188,13 @@ react-native-safe-area-view@^0.7.0:
   resolved "https://codeload.github.com/react-navigation/react-native-tab-view/tar.gz/36ebd834d78b841fc19778c966465d02fd1213bb"
   dependencies:
     prop-types "^15.6.0"
+
+react-native-video@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-2.0.0.tgz#f33fa6fb7e7e3c93ab5787944cefd58bf7355867"
+  dependencies:
+    keymirror "0.1.1"
+    prop-types "^15.5.10"
 
 react-native@0.55.3:
   version "0.55.3"
