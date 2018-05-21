@@ -22,7 +22,7 @@ export default class Clock extends Component {
 
                     captureAudio = {true}
 
-                    type={RNCamera.Constants.Type.back}
+                    type={RNCamera.Constants.Type.front}
 
                     flashMode={RNCamera.Constants.FlashMode.torch}
 
